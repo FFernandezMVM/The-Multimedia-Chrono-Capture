@@ -8,8 +8,8 @@ fontSize: '40px', color: '#00ff00', fontStyle: 'bold'
 }).setOrigin(0.5); // Centrem el text
 }}
 const config = {
-type: Phaser.AUTO,
-width: 800, height: 600,
+type: Phaser.Scale.FIT,
+width: 480, height: 854,
 parent: 'game-container', // Enllaç amb l'HTML
 backgroundColor: '#1a1a1a',
 scene: EscenaProva // Escena inicial
