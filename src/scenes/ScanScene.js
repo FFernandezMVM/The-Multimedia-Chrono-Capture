@@ -17,8 +17,7 @@ export class GameScene extends Phaser.Scene {
             key: 'VisorImg',
             frames: this.anims.generateFrameNumbers('VisorImg', { start: 0, end: 3 }),
             frameRate: 8,
-            repeat: -1,
-            yoyo: true,
-});
+            repeat: 1,
+            yoyo: false,});
 }
 }
